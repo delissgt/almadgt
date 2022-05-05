@@ -1,12 +1,9 @@
-import Home from '../index';
 import {PageHeader, Card, Divider, Timeline} from "antd";
 
 
-function AuthorPage (props) {
-  console.log("props author", props)
+function AuthorPage () {
   return (
       <>
-
         <Card bordered={false}>
           <PageHeader
               title={"About me"}
@@ -49,7 +46,6 @@ function AuthorPage (props) {
               - gfd <br/>
               -qq <br/>
               - dsd <br/>
-
             </Timeline.Item>
             <Timeline.Item label={'Bentel forntedn'}> description</Timeline.Item>
 
