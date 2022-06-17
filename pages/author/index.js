@@ -23,7 +23,7 @@ function AuthorPage (props) {
             </Card>
           </Card.Grid>
           <Card.Grid hoverable={false} style={{ textAlign: 'center'}} bordered={false}>
-            I&apos;m Software Engineerno-un
+            I&apos;m Software Engineer
             I&apos;m used to work in Linux, also I enjoy frontend development and  it&apos;s improvement
             through UX. Other relevant fields for me are Data Bases and Testing, I would like to develop
             myself on these fields.
