@@ -1,5 +1,5 @@
 import {PageHeader, Card, Divider, Timeline, Button} from "antd";
-import {GithubOutlined} from '@ant-design/icons';
+import {GithubOutlined, LinkedinOutlined, MailOutlined} from '@ant-design/icons';
 
 
 function AuthorPage (props) {
@@ -11,9 +11,16 @@ function AuthorPage (props) {
             hi, I'm Delia
           </Card.Grid>
           <Card.Grid bordered={false}>
-            my photo
-            <br/>
-            <GithubOutlined />
+            <Card
+                bordered={false}
+                actions={[
+                  <Button shape={'circle'} icon={<GithubOutlined />}/>,
+                  <Button shape={'circle'} icon={<LinkedinOutlined />}/>,
+                  <Button shape={'circle'} icon={<MailOutlined />}/>
+                ]}
+            >
+              my photo
+            </Card>
           </Card.Grid>
           <Card.Grid hoverable={false} style={{ textAlign: 'center'}} bordered={false}>
             I'm Software Engineer
@@ -25,7 +32,7 @@ function AuthorPage (props) {
             <Button type={'primary'} loading={false} >Download my CV</Button>
           </Card.Grid>
         </Card>
-        <Divider/>
+        {/*<Divider/>*/}
         <Card bordered={false}>
           <PageHeader
               title={"My experience"}
@@ -46,9 +53,9 @@ function AuthorPage (props) {
               - Documentation for user usage
             </Timeline.Item>
             <Timeline.Item label={'Gamification applied on System for Learning POO with focus in usage for people with motricity disability - Thesis degree- 02/2020'}>
-              - gfd <br/>
-              -qq <br/>
-              - dsd <br/>
+              - Creation of backed using Python and Flask <br/>
+              - Design of Postgrest Data Base <br/>
+              - Creation of Frontend  <br/>
             </Timeline.Item>
             <Timeline.Item label={'Bentel frontend'}> description</Timeline.Item>
 
