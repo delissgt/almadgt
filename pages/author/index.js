@@ -8,7 +8,7 @@ function AuthorPage (props) {
         <PageHeader title={"About me"}/>
         <Card bordered={false}>
           <Card.Grid hoverable={false} bordered={false} style={{ textAlign: 'center'}}>
-            hi, I'm Delia
+            hi, I&apos;m Delia
           </Card.Grid>
           <Card.Grid bordered={false}>
             <Card
@@ -23,7 +23,7 @@ function AuthorPage (props) {
             </Card>
           </Card.Grid>
           <Card.Grid hoverable={false} style={{ textAlign: 'center'}} bordered={false}>
-            I'm Software Engineer
+            I'm Software Engineerno-un
             I'm used to work in Linux, also I enjoy frontend development and  it's improvement
             through UX. Other relevant fields for me are Data Bases and Testing, I would like to develop
             myself on these fields.
