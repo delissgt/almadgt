@@ -14,17 +14,17 @@ function AuthorPage (props) {
             <Card
                 bordered={false}
                 actions={[
-                  <Button shape={'circle'} icon={<GithubOutlined />}/>,
-                  <Button shape={'circle'} icon={<LinkedinOutlined />}/>,
-                  <Button shape={'circle'} icon={<MailOutlined />}/>
+                  <Button key='githug' shape={'circle'} icon={<GithubOutlined />}/>,
+                  <Button key='linkedin' shape={'circle'} icon={<LinkedinOutlined />}/>,
+                  <Button key='mail' shape={'circle'} icon={<MailOutlined />}/>
                 ]}
             >
               my photo
             </Card>
           </Card.Grid>
           <Card.Grid hoverable={false} style={{ textAlign: 'center'}} bordered={false}>
-            I'm Software Engineerno-un
-            I'm used to work in Linux, also I enjoy frontend development and  it's improvement
+            I&apos;m Software Engineerno-un
+            I&apos;m used to work in Linux, also I enjoy frontend development and  it&apos;s improvement
             through UX. Other relevant fields for me are Data Bases and Testing, I would like to develop
             myself on these fields.
             <br/>
