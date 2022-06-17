@@ -38,7 +38,7 @@ function AuthorPage (props) {
               title={"My experience"}
           />
           <Timeline mode={'left'}>
-            <Timeline.Item label={'Coworking on Kimetrics Company - Professional Practice'}></Timeline.Item>
+            <Timeline.Item label={'Coworking on Kimetrics Company - Professional Practice'}/>
 
             <Timeline.Item label={'Junior Developer -- Kimetrics Company - 11/2018'}>
               - Tested company mobile application and site for final clients <br/>
